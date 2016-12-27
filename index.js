@@ -1,9 +1,11 @@
 var generateBoard = require('./board.js').generateBoard
 var Bot = require('slackbots');
-
+const http = require('http');
+const fs = require('fs')
+console.log(fs.readFileSync('token.txt', 'utf-8').trim());
 // create a bot
 var settings = {
-    token: 'xoxb-118346854022-8olUhYwhK4LNdSd2Y3ulzeQx',
+    token: fs.readFileSync('token.txt', 'utf-8').trim(),
     name: 'Betty Bot'
 };
 var bot = new Bot(settings);

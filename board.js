@@ -53,8 +53,6 @@ var evaluate = function (board) {
 }
 
 var board = generateBoard();
-console.log(board[5], 'board')
-board[5][2] = 1;
 console.log(board, 'boa');
 
 console.log(evaluate(board));
