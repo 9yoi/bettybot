@@ -1,0 +1,22 @@
+{
+  "name": "growbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meijiao/growbot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/meijiao/growbot/issues"
+  },
+  "homepage": "https://github.com/meijiao/growbot#readme",
+  "dependencies": {
+    "slackbots": "^0.5.3"
+  }
+}
